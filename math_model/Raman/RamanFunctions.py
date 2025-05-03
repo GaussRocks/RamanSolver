@@ -2,21 +2,16 @@ import numpy as np
 from scipy.constants import Planck as hp
 from scipy.constants import Boltzmann as Kb
 from math_model.Raman.gR import gRintegral as gR
-from file_management.BuildConditions import getDomain, getFiberParam
+from math_model.Raman.BuildConditions import Parameters
 from PadUtils.Lab.ChannelUtils import ChannelTool as ct
 from multiprocessing import Pool
-import yaml
 
 dbm = lambda x: ct.from_watt_to_dbm(np.array(x))
 watt = lambda x: ct.from_dbm_to_watt(np.array(x))
 
-Aeff, eta, Gamma, gRmax, T, dv, alpha = getFiberParam()
-z, f, dz = getDomain()
-
-with open('Parameters.yaml') as file:
-    param = yaml.safe_load(file)
-
-Ncpu = param['Computation']['Ncpu']
+Aeff, eta, Gamma, gRmax, T, dv, alpha = Parameters.getFiberParam()
+z, f, dz = Parameters.getDomain()
+Ncpu = Parameters.getNcpu()
 
 def _theta(df):
     return gR(df, gRmax)/(Gamma*Aeff)

@@ -1,5 +1,5 @@
-from PadUtils.Lab.ChannelUtils import ChannelTool as ct
-from math_model.Raman.RamanFunctions import F_func
+from utils.ChannelUtils import ChannelTool as ct
+from math_model import F_func
 import numpy as np
 
 dbm = lambda x: ct.from_watt_to_dbm(np.array(x))

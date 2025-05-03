@@ -2,8 +2,6 @@ Computation:
     Ncpu: 9
     Nit: 1
     Direction: backward
-    file: iteration_nonoise_par
-    path: output
     processing: parallel
 
 Signal:

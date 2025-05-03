@@ -1,13 +1,15 @@
 import numpy as np
 import yaml
 
-with open('./Parameters.yaml') as file:
-    param = yaml.safe_load(file)
-    
-path = param['Computation']['path']
-fname = param['Computation']['file']
+def LoadYamlFile(filename):
+    with open(filename) as f:
+        param = yaml.safe_load(f)
+    return param
 
 def savetxt(power, itn):
+    param = LoadYamlFile('./config/config.yaml')
+    path = param['output_file_path']
+    fname = param['ouput_file_name']
     power =  np.transpose(power, (1, 0, 2))
     N = np.shape(power)[-1]
     with open(f'{path}/{itn}th_{fname}_fwd.txt', 'ab') as file:

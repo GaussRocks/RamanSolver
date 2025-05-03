@@ -1,0 +1,12 @@
+Computation: 
+    Nit: 1
+    file: iteration_nonoise_par
+    path: output
+
+Domain:
+    dz: 0.01
+    z0: 0.0
+    zL: 1.2
+
+Boundary: 
+    Power_0: 2.0
