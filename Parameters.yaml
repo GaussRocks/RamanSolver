@@ -1,0 +1,41 @@
+Computation: 
+    Ncpu: 9
+    Nit: 4
+    Direction: backward
+    file: iteration_nonoise_par
+    path: output
+    processing: parallel
+
+Signal:
+    Nsig: 19
+    start: 188.85e+12
+    stop: 192.45e+12
+    alpha: 0.2
+    boundary:
+        forward:
+            Power_0: 0.0   
+            Power_L: 0.0
+        backward:
+            Power_0: -30.0
+            Power_L: -70.0
+    
+Pump:
+    Wavelen: [1455, 1475]
+    alpha: [0.35, 0.35]
+    boundary:
+        forward: 
+            Power_0: [-70.0, -70.0]       
+            Power_L: [-3.0, -3.0] 
+        backward:
+            Power_0: [-3.0, -3.0]
+            Power_L: [27.0, 27.0]
+            
+Fiber:
+    dz: 1.0e+3
+    zL: 80.0e+3
+    Aeff: 80.0e-12
+    eta: 0.0e-8
+    Gamma: 2
+    gRmax: 0.796e-13
+    Temp: 300
+    dv: 000.0e+9
