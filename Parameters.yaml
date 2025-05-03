@@ -1,6 +1,6 @@
 Computation: 
     Ncpu: 9
-    Nit: 4
+    Nit: 1
     Direction: backward
     file: iteration_nonoise_par
     path: output

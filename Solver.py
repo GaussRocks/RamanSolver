@@ -3,9 +3,10 @@ from matplotlib import pyplot as plt
 import sys
 from tqdm import tqdm
 import yaml
-from BuildConditions import getBoundaryConditions, getDomain
-from SolverFunctions import (AdamBashforth_2th, AdamBashforth_3th,
-                             AdamBashforth_4th, Avg_power, Shooting, savetxt)
+from file_management.BuildConditions import getBoundaryConditions, getDomain
+from file_management.FileFunctions import savetxt
+from solver_model.ShootingFunctions import Shooting
+from solver_model.PCMFunctions import AdamBashforth_2th, AdamBashforth_3th, AdamBashforth_4th, Avg_power
 
 from PadUtils.Lab.ChannelUtils import ChannelTool as ct
 dbm = lambda x: ct.from_watt_to_dbm(np.array(x))
@@ -32,19 +33,19 @@ if __name__ == "__main__":
             
             p = [pa[-1]]; F=list()
             
-            p1, F0 = Avg_power(z, p)
+            p1, F0 = Avg_power(z, p, dz)
             p.append(p1); F.append(F0)
             
-            p2, F1 = AdamBashforth_2th(z, p, F)
+            p2, F1 = AdamBashforth_2th(z, p, F, dz)
             p.append(p2); F.append(F1)
             
-            p3, F2 =  AdamBashforth_3th(z, p, F)
+            p3, F2 =  AdamBashforth_3th(z, p, F, dz)
             p.append(p3); F.append(F2)
             
             savetxt(p, itn)
             pbar.update(3)
             for n in range(z.size-4):
-                pj, Fj = AdamBashforth_4th(z, p, F, n)
+                pj, Fj = AdamBashforth_4th(z, p, F, n, dz)
                 p.append(pj); F.append(Fj)
                 savetxt([p[-1]], itn)
                 pbar.update(1)

@@ -71,5 +71,3 @@ def getFiberParam():
     par = [param['Fiber'][n] for n in list(param['Fiber'])[2:]]
     par.append(alpha)
     return par
-    
- 
