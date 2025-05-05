@@ -1,0 +1,168 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="S1C0AwrfsRCA94kyAC44">
+    <mxGraphModel dx="1938" dy="2413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0K8_An786KS7B_uHjLdV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.471;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="-109.93000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-490" y="662" />
+              <mxPoint x="-490" y="-110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-815" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-45" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-180;" parent="1" vertex="1">
+          <mxGeometry x="470" y="-595" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-52" value="" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="680" y="-720" width="90" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-53" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-360;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-595" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-54" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-360;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-815" width="50" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.85;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;startFill=0;startArrow=none;endSize=10;" parent="1" source="0K8_An786KS7B_uHjLdV-43" target="0K8_An786KS7B_uHjLdV-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.15;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;endSize=10;" parent="1" source="0K8_An786KS7B_uHjLdV-52" target="0K8_An786KS7B_uHjLdV-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.85;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;endSize=10;" parent="1" source="0K8_An786KS7B_uHjLdV-52" target="0K8_An786KS7B_uHjLdV-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.15;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=1;endSize=10;" parent="1" source="0K8_An786KS7B_uHjLdV-53" target="0K8_An786KS7B_uHjLdV-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=0, f_0)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-815" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-62" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=0, f_1)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-775" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=0, f_2)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-735" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=0, f_n)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-655" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-65" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\vdots$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-695" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-66" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=0, f_0)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-595" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-67" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=0, f_1)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-555" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-68" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=0, f_2)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-515" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-69" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=0, f_n)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="-435" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-70" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\vdots$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="360" y="-475" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=L, f_0)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-595" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-72" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=L, f_1)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-555" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-73" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=L, f_2)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-515" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-74" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{-}(z=L, f_n)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-435" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-75" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\vdots$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="970" y="-475" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-76" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=L, f_0)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-815" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-77" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=L, f_1)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-775" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=L, f_2)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-735" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-79" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$P^{+}(z=L, f_n)$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="930" y="-655" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-80" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;$$\vdots$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="970" y="-695" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-81" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;Fiber&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="685" y="-625" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BlrlP6UIrHKC5vIwJHGr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0K8_An786KS7B_uHjLdV-83" target="BlrlP6UIrHKC5vIwJHGr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-83" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="-1140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0K8_An786KS7B_uHjLdV-84" target="0K8_An786KS7B_uHjLdV-86" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-84" value="It will generate a reasonable value for \( P^{-} (z) \)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="-1030" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0K8_An786KS7B_uHjLdV-86" target="0K8_An786KS7B_uHjLdV-87" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-86" value="Solve Raman Equation in forward direction using conditions \(P^{+}(z=0) \),&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\( \Delta \nu \neq 0\),&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;\( \eta \neq 0 \)&amp;nbsp;&lt;/span&gt;&lt;div&gt;\( P^{-}(z) \)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="-890" width="195" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0K8_An786KS7B_uHjLdV-87" target="0K8_An786KS7B_uHjLdV-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-87" value="The solution will result in an aproximation to $$P^{+}(z)$$" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="-700" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0K8_An786KS7B_uHjLdV-88" target="0K8_An786KS7B_uHjLdV-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-88" value="Solve Raman Equation in backward direction using conditions $$P^{-}(z=L)$$ and the new&amp;nbsp; $$P^{+}(z)$$" style="rounded=1;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=center;whiteSpace=wrap;spacingLeft=4;verticalAlign=middle;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="-560" width="195" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0K8_An786KS7B_uHjLdV-89" target="0K8_An786KS7B_uHjLdV-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-89" value="A new improved $$P^{-}(z)$$ is obtained" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="-360" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0K8_An786KS7B_uHjLdV-90" target="0K8_An786KS7B_uHjLdV-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="-155" />
+              <mxPoint x="1240" y="-820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-90" value="Check boundary convergence" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="-220" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-99" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="-40" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0K8_An786KS7B_uHjLdV-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0K8_An786KS7B_uHjLdV-90" target="0K8_An786KS7B_uHjLdV-99" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BlrlP6UIrHKC5vIwJHGr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BlrlP6UIrHKC5vIwJHGr-3" target="0K8_An786KS7B_uHjLdV-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BlrlP6UIrHKC5vIwJHGr-3" value="Consider \( \Delta \nu = 0 \)&amp;nbsp; and \( \eta = 0 \).&amp;nbsp;&lt;div&gt;Solve Raman Equation in backward&lt;/div&gt;&lt;div&gt;direction using&amp;nbsp;&lt;/div&gt;&lt;div&gt;\( P^{-} (z=L) \)&amp;nbsp;&lt;/div&gt;&lt;div&gt;and shooting method&lt;/div&gt;" style="rounded=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=none;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-1030" width="210" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
